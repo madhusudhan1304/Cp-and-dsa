@@ -1,0 +1,9 @@
+Given an array A[] and a number x, check for a pair in A[] with the sum as x, where N is:
+
+1) 1 <= N <= 10^3
+2) 1 <= N <= 10^5
+3) 1 <= N <= 10^8
+For Case 1: A naive solution that is using two for-loops works as it gives us a complexity of O(N2), 
+which even in the worst case will perform 106 operations which are well under 108. Of course, O(N)
+and O(NlogN) is also acceptable in this case.
+consider largest n value and substitute in time complexity and ch3ck if it is less than 10 power 8
