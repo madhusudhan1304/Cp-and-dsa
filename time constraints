@@ -1,0 +1,19 @@
+ime limit per test: 2 seconds
+This does NOT mean:
+“2 seconds for EACH test case inside input”
+“2 seconds * 1000 if there are 1000 test cases in input”
+It means:
+👉 The entire program must finish within 2 seconds total, regardless of how many test cases the input contains.it mean the whole n should have been done 
+ok now assume there is a problem statement given time limit per test case is 2seconds
+then it means for whole program to run or whole test case to run is 2sec then 
+for 2 seconds it takes- 2*10^8
+now if total number of subtetscases is 1000 under a test casse
+then time per subtestcas is 2*10^5 
+the total operations shoulld be less than this in codeforces 
+Codeforces gives 2 seconds for the whole input, not per testcase inside the input.
+
+If you estimate machine speed as 10^8 ops/sec, then 2 seconds = 2×10^8 ops total.
+
+If the input contains 1000 internal testcases, then on average each testcase can take about 2×10^5 ops, but this is only for planning.
+
+The entire code must finish within 2 seconds, no matter how many internal testcases exist.
